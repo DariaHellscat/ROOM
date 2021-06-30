@@ -1,0 +1,142 @@
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  color: #aaaaaa;
+}
+
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.header {
+  width: 1280px;
+  height: 139px;
+  margin: 0 auto;
+}
+
+.header__top {
+  background: #f4f4f4;
+}
+/* 
+.body {
+  width: 1280px;
+  margin: 0 auto;
+}
+ */
+.container {
+  width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.header__top-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 40px;
+}
+
+.header__bottom-inner {
+  height: 99px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header__top-span {
+  height: 33px;
+  left: 0%;
+  right: 0%;
+  top: -10px;
+  font-size: 12px;
+  line-height: 33px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin-left: 25px;
+}
+
+.header__bottom-span {
+  height: 15px;
+  left: 65.34%;
+  right: 15.06%;
+  top: 43px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 43px 110px;
+}
+
+span:nth-child(3) {
+  margin-right: 25px;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.design-room__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 210px;
+}
+
+.design-photo {
+  height: 746px;
+  top: 188px;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  background-image: url("images/meeting-rooms.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.design_main-text {
+  width: 355px;
+}
+
+.design-text {
+  width: 570px;
+  height: 160px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.design-room__galery {
+  column-count: 2;
+  column-gap: 24px;
+  align-items: center;
+}
+
+.galery-item {
+  margin-bottom: 10px;
+}
