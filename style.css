@@ -1,8 +1,8 @@
-p {
+p,
+design-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-
   color: #aaaaaa;
 }
 
@@ -23,12 +23,7 @@ h3 {
 .header__top {
   background: #f4f4f4;
 }
-/* 
-.body {
-  width: 1280px;
-  margin: 0 auto;
-}
- */
+
 .container {
   width: 1280px;
   height: 100vh;
@@ -91,6 +86,7 @@ span:nth-child(3) {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-left: 120px;
 }
 
 section {
@@ -129,14 +125,42 @@ section {
   font-weight: normal;
   font-size: 24px;
   line-height: 40px;
+  color: #aaaaaa;
+}
+
+.design-brand__text {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 40px;
+  color: #aaaaaa;
+  text-align: center;
+  display: block;
+  margin-top: 27px;
 }
 
 .design-room__galery {
   column-count: 2;
-  column-gap: 24px;
   align-items: center;
+}
+
+.design-room__galery-item {
+  margin-bottom: 32px;
+  width: 588px;
 }
 
 .galery-item {
   margin-bottom: 10px;
+  width: 588px;
+  margin-right: 0;
+}
+
+.design {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.design-brand__heading {
+  text-align: center;
+  margin-top: 244px;
 }
