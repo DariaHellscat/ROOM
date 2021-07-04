@@ -164,3 +164,36 @@ section {
   text-align: center;
   margin-top: 244px;
 }
+
+.design-brand__text {
+  margin-bottom: 125px;
+}
+
+.brand {
+  column-count: 6;
+  column-gap: 50px;
+  margin-bottom: 240px;
+}
+
+.brand__item {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.slider {
+  width: 1077px;
+  height: 168px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.slider-heading {
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.get-in-touch {
+  color: #46856e;
+}
