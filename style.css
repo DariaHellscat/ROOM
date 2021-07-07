@@ -253,3 +253,50 @@ body
   flex-direction: row;
   justify-content: center;
 }
+
+.read-more-reviews-image {
+  position: relative;
+  width: 100%;
+}
+
+.read-more-reviews {
+  position: absolute;
+  top: 120px;
+  left: 185px;
+}
+
+p.more__reviews {
+  width: 265px;
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+span.read-more-reviews {
+  bottom: 130px;
+  left: 195px;
+  color: #ffffff;
+  margin-top: 46px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+body
+  > div.container
+  > section.design-room
+  > div.read-more-reviews
+  > div
+  > span:nth-child(6) {
+  margin-bottom: 76px;
+}
+
+span.more__reviews {
+  font-weight: bold;
+  font-size: 35px;
+  color: #ffffff;
+}
