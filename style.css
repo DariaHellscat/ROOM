@@ -1,13 +1,13 @@
 p,
 design-text {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   color: #aaaaaa;
 }
 
 h3 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -15,7 +15,7 @@ h3 {
 }
 
 h4 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: normal;
@@ -54,7 +54,7 @@ h4 {
 }
 
 span {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -128,7 +128,7 @@ section {
 .design-text {
   width: 570px;
   height: 160px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -137,7 +137,7 @@ section {
 }
 
 .design-brand__text {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 40px;
   color: #aaaaaa;
@@ -219,7 +219,7 @@ section {
 
 .simple__text {
   width: 316px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -267,24 +267,29 @@ body
 
 p.more__reviews {
   width: 265px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 32px;
   color: #ffffff;
   margin-bottom: 8px;
 }
 
-span.read-more-reviews {
-  bottom: 130px;
-  left: 195px;
-  color: #ffffff;
-  margin-top: 46px;
+p.more__reviews:before {
+  content: "";
+}
+
+/* READ MORE REVIEWS - надо добавить
+a.read-more-reviews {
+  color: #000000;
   font-family: Roboto;
   font-size: 16px;
   line-height: 12px;
   letter-spacing: 0.75px;
   text-transform: uppercase;
-}
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+} */
 
 body
   > div.container
